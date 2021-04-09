@@ -1,0 +1,30 @@
+
+.checkout{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* background-color: white; */
+    height: max-content;
+}
+.checkout_title{
+    margin-right: 10px;
+    padding: 10px;
+    color: #007185;
+    text-align: center;
+    /* border-bottom: 1px solid lightgray; */
+}
+.checkout_left > img{
+    width: 100;
+}
+.aboutShopping_card{
+    /* border: 2px solid red; */
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.empty_cart{
+    font-size: 15px;
+    width: 50%;
+    /* font-weight: 200; */
+    color: teal;
+}
